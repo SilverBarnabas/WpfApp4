@@ -4,9 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        mc:Ignorable="d" Height="350" Width="525" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <StackPanel>
+        <Grid Height= "50" VerticalAlignment= "Top" Background = "LightBlue">
+
+        </Grid>
+        <Grid Height="90" VerticalAlignment="Top" Background = "Azure">
+
+        </Grid>
+        <Grid Height="420" VerticalAlignment="Top"  Background="White" Margin="20">
+            <Grid.Effect>
+                <DropShadowEffect BlurRadius="20" ShadowDepth="1"/>
+            </Grid.Effect>
+
+        </Grid>
+    </StackPanel>
+    
 </Window>
